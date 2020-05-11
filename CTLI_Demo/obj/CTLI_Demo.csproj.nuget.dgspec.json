@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Azure_Sample_Web_API\\CTLI_Demo\\CTLI_Demo\\CTLI_Demo.csproj": {}
+    "C:\\Projects\\Azure_Sample_Web_API\\CTLI-First\\trunk\\CTLI_Demo\\CTLI_Demo.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Azure_Sample_Web_API\\CTLI_Demo\\CTLI_Demo\\CTLI_Demo.csproj": {
+    "C:\\Projects\\Azure_Sample_Web_API\\CTLI-First\\trunk\\CTLI_Demo\\CTLI_Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Azure_Sample_Web_API\\CTLI_Demo\\CTLI_Demo\\CTLI_Demo.csproj",
+        "projectUniqueName": "C:\\Projects\\Azure_Sample_Web_API\\CTLI-First\\trunk\\CTLI_Demo\\CTLI_Demo.csproj",
         "projectName": "CTLI_Demo",
-        "projectPath": "C:\\Projects\\Azure_Sample_Web_API\\CTLI_Demo\\CTLI_Demo\\CTLI_Demo.csproj",
+        "projectPath": "C:\\Projects\\Azure_Sample_Web_API\\CTLI-First\\trunk\\CTLI_Demo\\CTLI_Demo.csproj",
         "packagesPath": "C:\\Users\\AC33290\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Azure_Sample_Web_API\\CTLI_Demo\\CTLI_Demo\\obj\\",
+        "outputPath": "C:\\Projects\\Azure_Sample_Web_API\\CTLI-First\\trunk\\CTLI_Demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,6 +42,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
